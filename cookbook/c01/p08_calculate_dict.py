@@ -25,6 +25,7 @@ def calc_dict():
     #                   (45.23, 'ACME'), (205.55, 'IBM'),
     #                   (612.78, 'AAPL')]
 
+    # zip 返回的迭代器 只能被消费一次
     prices_and_names = zip(prices.values(), prices.keys())
     print(min(prices_and_names)) # OK
     print(max(prices_and_names)) # ValueError: max() arg is an empty sequence
