@@ -3,6 +3,14 @@
 """
 Topic: 分组迭代
 Desc : 
+itertools.groupby(iterable, key=None)
+创建一个迭代器，返回 iterable 中连续的键和组。
+key 是一个计算元素键值函数。
+如果未指定或为 None，key 缺省为恒等函数（identity function），返回元素不变。
+一般来说，iterable 需用同一个键值函数预先排序。
+返回的组本身也是一个迭代器，它与 groupby() 共享底层的可迭代对象。
+因为源是共享的，当 groupby() 对象向后迭代时，前一个组将消失。
+因此如果稍后还需要返回结果，可保存为列表
 """
 from operator import itemgetter
 from itertools import groupby
