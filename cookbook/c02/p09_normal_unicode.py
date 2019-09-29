@@ -15,11 +15,13 @@ def nor_unicode():
     print(len(s1), len(s2))
 
     # 先将文本标准化表示
+    # 正规形式C（NFC）首先应用规范分解，然后再次组合预组合字符
     t1 = unicodedata.normalize('NFC', s1)
     t2 = unicodedata.normalize('NFC', s2)
     print(t1 == t2)
     print(ascii(t1))
 
+    # 正规形式D（NFD）也称为规范分解，并将每个字符转换为其分解形式
     t3 = unicodedata.normalize('NFD', s1)
     t4 = unicodedata.normalize('NFD', s2)
     print(t3 == t4)
