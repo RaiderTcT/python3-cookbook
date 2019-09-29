@@ -40,6 +40,9 @@ def translate_str():
     digitmap = {c: ord('0') + unicodedata.digit(chr(c))
                 for c in range(sys.maxunicode)
                 if unicodedata.category(chr(c)) == 'Nd'}
+    # 'A' -> 'L'etter, 'u'ppercase -> Lu
+    # 'b' -> 'L'etter, 'l'ppercase -> Ll
+    # '1' -> 'N'umber, 'd'ecimal -> Nd
     print(len(digitmap))
     x = '\u0661\u0662\u0663'
     print(x.translate(digitmap))
