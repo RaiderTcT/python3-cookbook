@@ -19,6 +19,7 @@ class SafeSub(dict):
 
 
 def sub(text):
+    # frame-hack技巧，返回调用方的栈帧，f_locals得到局部变量
     return text.format_map(SafeSub(sys._getframe(1).f_locals))
 
 def var_str():
