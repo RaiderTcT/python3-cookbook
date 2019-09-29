@@ -32,7 +32,24 @@ def search_replace():
     newtext, n = datepat.subn(r'\3-\1-\2', text)
     print(newtext, n)
 
+    
+ def matchcase(word):
+    def replace(m):
+        text = m.group()
+        if text.isupper():
+            return word.upper()
+        elif text.islower():
+            return word.lower()
+        elif text[0].capitalize():
+            return word.capitalize()
+        else:
+            return word
+    return  replace   
+
 
 if __name__ == '__main__':
     search_replace()
+    text = "UPPER PYTHON, lower python, Mixed Python"
+    text_3 = re.sub('python', matchcase('java'), text, flags=re.I)
+    print(text_3)
 
