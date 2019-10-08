@@ -9,6 +9,7 @@ import os.path
 
 def read_into_buffer(filename):
         buf = bytearray(os.path.getsize(filename))
+        # 将数据填充到任何预分配的数组中
         with open(filename, 'rb') as f:
             f.readinto(buf)
         return buf
@@ -17,6 +18,7 @@ def read_into_buffer(filename):
 def read_tobuffer():
     buf = bytearray(os.path.getsize('filename'))
     print(buf)
+    # 对缓冲区的数据进行切片处理,而没有拷贝
     m1 = memoryview(buf)
     m2 = m1[-5:]
     print(m2)
