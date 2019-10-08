@@ -7,6 +7,25 @@ Desc :
 import urllib.request
 import io
 import sys
+"""
+TextIOWrapper
+BufferWriter/Reader
+FileIO
+"""
+
+def change_code():
+    filename = "jalapeño.txt"
+
+    f = open(filename, 'w')
+    # 将最上层TextIOWrapper分离开， 返回Buffer层
+    b = f.detach()
+    print(f, b)
+    # f.write('hello world\n')  ValueError: underlying buffer has been detached
+    # <_io.TextIOWrapper mode='r' encoding='cp936'> <_io.BufferedReader name='jalapeño.txt'>
+    f_new = io.TextIOWrapper(b, encoding='utf-8')
+    print(f_new)
+    print(f_new.write('HELLO WORLD\n'))
+    f_new.close()
 
 
 def change_open_encode():
