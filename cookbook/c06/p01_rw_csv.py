@@ -35,6 +35,18 @@ def rw_csv():
         f_csv.writerow(headers)
         f_csv.writerows(rows)
 
+    rows_1 = [
+        {'Symbol': "AA", "Price": 33.21, "Date": '01/28/2019',
+         'Time': '06:30pm', 'Change': 0.12, 'Volume': 33200},
+        {'Symbol': "AIG", "Price": 43.21, "Date": '01/28/2019',
+         'Time': '06:30pm', 'Change': 0.12, 'Volume': 11200},
+        {'Symbol': "AXP", "Price": 53.21, "Date": '01/29/2019',
+         'Time': '06:30pm', 'Change': 0.12, 'Volume': 13300},
+    ]
+    with open('stocks_1.csv', 'w') as f:
+        f_csv = csv.DictWriter(f, fieldnames=headers)
+        f_csv.writeheader()
+        f_csv.writerows(rows_1)        
 
 if __name__ == '__main__':
     rw_csv()
