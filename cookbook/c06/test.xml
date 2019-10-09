@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <sflag dt:dt="string">1333265840</sflag>
+ </CustomDocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Default" x:Family="Roman" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="73" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25">
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Measurement Unit Name:Incoming Traffic in Trunk Office Directions</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trunk Office Direction</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Credible</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reported Time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reported End Time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Seizure Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Alerting Message Received Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Answer Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Completion Rate</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Answer Rate</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Seizure Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Completion Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Answer Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Number of Installed Circuits</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Number of Available Circuits</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Number of Blocked Circuits</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Releases Before Ringing</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Releases After Ringing</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Local Office Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Callee No Answer Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">User Determined User Busy Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">User Busy Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Address Invalid Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Subscriber Absent Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Subscriber Service Barred Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Special Signal Tone Played Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Congestion Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paging No Response Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Interworking Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Callee No Response Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">MGW Fault Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">All Circuits Busy Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assignment Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Number Unallocated Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SIP Office Direction Call Barred Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Other Failure Causes</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Continuity Check Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Continuity Check Failures</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ISUP Bidirectional Trunk Call Barred Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ISUP Unidirectional Incoming Trunk Call Barred Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Seizure Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Alerting Message Received Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Answer Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Seizure Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Call Completion Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CMN Answer Traffic</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Local Office Call Failure Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Subscriber Service Barred Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Special Signal Tone Playing Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Congestion Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Interworking Failure Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Failure Ratio due to MGW Fault</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Failure Ratio due to All Circuits Busy</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Assignment Failure Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Continuity Check Failure Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ISUP Bidirectional Trunk Call Barred Ratio RESTRICTION RATE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">ISUP Unidirectional Incoming Trunk Call Barred Ratio RESTRCTION RATE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Total Incoming Call Duration (Trunk Office Directions)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SIP Incoming Trunk Call Refuse Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IP Congestion Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">IP Congestion Ratio</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Temporary Fault Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VIG Call Fallback Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Malicious Call Detect Success Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Malicious Call Forbid Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Office Direction Call Barred Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Average Seizure Traffic per Line</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Release by Bearer Fail Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Selecting Optimum Traffic Path in Same Area Success Times</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Average Conversation Duration</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Call Setup Time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Average Call Setup Time</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Portable Caller Number</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Portable Caller Number Ratio</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>55</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>67</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
