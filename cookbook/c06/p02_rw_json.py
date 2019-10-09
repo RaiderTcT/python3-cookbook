@@ -9,7 +9,9 @@ from collections import OrderedDict
 
 
 class JSONObject:
+    #　将JSON字典转为Python类对象
     def __init__(self, d):
+        # 一个字典或其他类型的映射对象，用于存储对象的（可写）属性。
         self.__dict__ = d
 
 
@@ -66,9 +68,9 @@ def rw_json():
     print(data)
 
     # 解码为自定义对象
-    # data = json.loads(s, object_hook=JSONObject)
-    # print(data.name)
-    # print(data.shares)
+    data = json.loads(s, object_hook=JSONObject)
+    print(data.name)
+    print(data.shares)
 
     print(json.dumps(data))
     print(json.dumps(data, indent=4))
