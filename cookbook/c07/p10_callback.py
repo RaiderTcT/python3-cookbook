@@ -60,3 +60,17 @@ next(handler) # Advance to the yield
 apply_async(add, (2, 3), callback=handler.send)
 apply_async(add, ('hello', 'world'), callback=handler.send)
 
+# 使用偏函数partial实现
+class SequenceNo:
+    def __init__(self):
+        self.sequence = 0
+
+
+def partial_handler(result, seq):
+    seq.sequence += 1
+    print(f'[{seq.sequence}] Result: {result}')
+
+seq = SequenceNo()
+apply_sync(add, (2, 3), callback=partial(partial_handler, seq=seq))
+apply_sync(add, ('nihao', '-xiexie'), callback=partial(partial_handler, seq=seq))
+
